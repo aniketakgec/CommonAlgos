@@ -54,8 +54,11 @@ int main()
 	#endif
 	fastio;
 	
-	ll n,m,u,v;
-	cin>>n>>m; // no of vertices and edges
+	ll n,m,u,v,t;
+	cin>>t;
+	while(t--)
+	{
+		cin>>n>>m; // no of vertices and edges
 
 	while(m--)
 	{
@@ -98,6 +101,8 @@ int main()
 	}
 
 
+	}
+	
 	return 0;
 }
 
